@@ -11,18 +11,38 @@ header img {
     object-fit: cover;
 }
 
-
-
 /* end header section */
 
-*{
-    margin: 0%;
-    padding: 0%;
+
+/* start Nav  */
+
+.navbar{
+    background: linear-gradient(to right, rgba(206, 192, 192, 0.966), rgb(126, 122, 122));
+}
+
+
+
+.navbar h2{
+    font-family: "Notov Sans" , sans-serif;
+    background-image: url(../img/rendering-smart-home-device.jpg);
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    
+}
+
+.Nav h5{
+    color: white;
+}
+
+
+.Nav h5:hover{
+    color: rgb(231, 76, 167);
 }
 
 .navbar a i{
     font-size: 27px;
-    color: black;
+    color: white;
     margin: 10px;
 
 }
@@ -30,4 +50,11 @@ header img {
 .navbar a i:hover{
     color: blue;
 }
+.navbar a:nth-of-type(2) i:hover{
+    color: rgba(255, 72, 0, 0.918);
+}
+
+/* End nav  */
+
+
 
