@@ -31,6 +31,7 @@ header img {
     
 }
 
+
 .Nav h5{
     color: white;
 }
@@ -39,6 +40,8 @@ header img {
 .Nav h5:hover{
     color: rgb(231, 76, 167);
 }
+
+
 
 .navbar a i{
     font-size: 27px;
@@ -50,11 +53,13 @@ header img {
 .navbar a i:hover{
     color: blue;
 }
+
 .navbar a:nth-of-type(2) i:hover{
     color: rgba(255, 72, 0, 0.918);
 }
 
 /* End nav  */
+
 
 
 
