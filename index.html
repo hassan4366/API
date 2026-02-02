@@ -1,7 +1,6 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Font Awesome -->
@@ -11,98 +10,342 @@
     <!-- style css -->
     <link rel="stylesheet" href="./css/style.css" />
     <title>Api-Data</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Start Nav Home section  -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-        <div class="container">
-            <h2>Smart Product</h2>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">
-                            <h5 class="m-3">Home</h5>
-                        </a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">
-                            <h5 class="m-3">Product</h5>
-                        </a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">
-                            <h5 class="m-3">Rating</h5>
-                        </a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">
-                            <h5 class="m-3">Contact Us</h5>
-                        </a>
-                    </li>
-                </ul>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-
+      <div class="container">
+        <h2>Smart Product</h2>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">
+                <h5 class="m-3">Home</h5>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#product">
+                <h5 class="m-3">Product</h5>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#rating">
+                <h5 class="m-3">Rating</h5>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#contact">
+                <h5 class="m-3">Contact Us</h5>
+              </a>
+            </li>
+          </ul>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
         </div>
+      </div>
     </nav>
 
     <!-- End Nav Home section  -->
 
     <!-- start header section -->
 
-
-    <header class="header-section mb-5">
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./img/rendering-smart-home-device.jpg" class="d-block w-100" alt="..." />
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/4843717.jpg" class="d-block w-100" alt="..." />
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/headphones-with-minimalist-monochrome-background.jpg" class="d-block w-100"
-                        alt="..." />
-                </div>
-            </div>
+    <header class="header-section my-5 " id="home">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleCaptions"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./img/rendering-smart-home-device.jpg"
+              class="d-block w-100 "
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/4843717.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/headphones-with-minimalist-monochrome-background.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
         </div>
+      </div>
     </header>
 
     <!-- end header section -->
 
-
-
     <!-- start product section -->
 
-    <section class="product-section mb-5">
-        <div class="container">
-            <div class="row" id="product-row">
-
-            </div>
+    <section class="product-section mb-5" id="product">
+      <div class="container">
+        <div class="row">
+          <h2 class="m-auto font-weight-bold text-secondary">All product</h2>
         </div>
+        <div class="row" id="product-row"></div>
+      </div>
+    </section>
 
     <!-- end product section -->
 
+    <!-- start Rating  -->
 
+    <section class="rating" id="rating">
+      <div class="container">
+        <div class="row">
+          <h2 class="d-block m-auto text-secondary">Rating people</h2>
+        </div>
 
+        <div class="row mt-4">
+          <div class="col-md-3">
+            <div class="d-flex">
+              <div class="img-box">
+                <img
+                  src="./img/photo_5965123302974409271_y.jpg"
+                  alt="hassan"
+                  class="img-fluid w-50"
+                />
+              </div>
+              <div>
+                <h5>Hassan ibrahim</h5>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="d-flex">
+              <div class="img-box">
+                <img
+                  src="./img/photo_5965123302974409271_y.jpg"
+                  alt="hassan"
+                  class="img-fluid w-50"
+                />
+              </div>
+              <div>
+                <h5>mohamed nader</h5>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="d-flex">
+              <div class="img-box">
+                <img
+                  src="./img/photo_5965123302974409271_y.jpg"
+                  alt=""
+                  class="img-fluid w-50"
+                />
+              </div>
+              <div>
+                <h5>Basel Ahmed</h5>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="d-flex">
+              <div class="img-box">
+                <img
+                  src="./img/photo_5965123302974409271_y.jpg"
+                  alt="hassan"
+                  class="img-fluid w-50"
+                />
+              </div>
+              <div>
+                <h5>Mahmoud ramy</h5>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Rating -->
+
+    <!-- start footer and Contact  -->
+
+    <footer class="text-lg-start bg-light" id="contact">
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <h5 class="font-weight-bold">
+            Get connected with us on social networks
+          </h5>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3b5998"
+            href="#!"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #55acee"
+            href="#!"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #dd4b39"
+            href="#!"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac"
+            href="#!"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+        <!-- Right -->
+      </section>
+
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Smart phone
+              </h6>
+              <p>
+                some product from API to display and buy each them , and all
+                product is original , Harry and buy.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+              <p>
+                <a href="#!" class="text-reset">samsang</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">iphone</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">realme</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">oppo</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+              <p>
+                <a href="#!" class="text-reset">Pricing</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Rating</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2026 Copyright:
+        <a class="text-reset fw-bold" href="#"
+          >"fetch by tantawy" $$ "Show by hammam"</a
+        >
+      </div>
+    </footer>
+
+    <!-- End footer and Contact -->
     <!-- bootstrap js  -->
     <script src="./js/jquery.slim.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/main.js"></script>
-</body>
-
+  </body>
 </html>

@@ -1,65 +1,86 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* start header section */
 
 header img {
-    height: 600px;
-    object-fit: cover;
+  height: 600px;
+  object-fit: cover;
 }
 
 /* end header section */
 
-
 /* start Nav  */
 
-.navbar{
-    background: linear-gradient(to right, rgba(206, 192, 192, 0.966), rgb(126, 122, 122));
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background: linear-gradient(
+    to right,
+    rgba(206, 192, 192, 0.966),
+    rgb(126, 122, 122)
+  );
 }
 
-
-
-.navbar h2{
-    font-family: "Notov Sans" , sans-serif;
-    background-image: url(../img/rendering-smart-home-device.jpg);
-    background-size: cover;
-    background-clip: text;
-    color: transparent;
-    
+.navbar h2 {
+  font-family: "Notov Sans", sans-serif;
+  background-image: url(../img/rendering-smart-home-device.jpg);
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
 }
 
-
-.Nav h5{
-    color: white;
+.navbar h5 {
+  color: white;
 }
 
-
-.Nav h5:hover{
-    color: rgb(231, 76, 167);
+.navbar h5:hover{
+    color: rgb(41, 223, 102);
 }
 
-
-
-.navbar a i{
-    font-size: 27px;
-    color: white;
-    margin: 10px;
-
+.Nav h5:hover {
+  color: rgb(231, 76, 167);
 }
 
-.navbar a i:hover{
-    color: blue;
+.navbar a i {
+  font-size: 27px;
+  color: white;
+  margin: 10px;
 }
 
-.navbar a:nth-of-type(2) i:hover{
-    color: rgba(255, 72, 0, 0.918);
+.navbar a i:hover {
+  color: blue;
+}
+
+.navbar a:nth-of-type(2) i:hover {
+  color: rgba(255, 72, 0, 0.918);
 }
 
 /* End nav  */
 
+.img-box {
+  width: 100px;
+  height: 100px;
 
+  border: 3px solid white;
+  flex-shrink: 0;
+}
 
+.img-box img {
+  border-radius: 50%    ;
+  width: 100%;
+}
 
+.rating h5 {
+  color: rgb(29, 202, 245);
+}
+
+.rating i {
+  color: rgb(255, 210, 9);
+}
