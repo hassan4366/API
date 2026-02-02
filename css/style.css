@@ -1,0 +1,15 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar a i{
+    font-size: 27px;
+    color: black;
+    margin: 10px;
+
+}
+
+.navbar a i:hover{
+    color: blue;
+}
